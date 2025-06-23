@@ -92,7 +92,7 @@ public/
 
 ## 🌍 Live Demo
 
-**🔗 [madycloud.vercel.app](https://madycloud-md.vercel.app)**  
+**🔗 [madycloud.vercel.app](https://madycloud.vercel.app)**  
 > Hosted on Vercel with CDN optimization and HTTPS
 
 ---
