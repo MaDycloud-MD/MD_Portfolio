@@ -131,4 +131,4 @@ npm start
 
 ## 🛡️ License
 
-This project is open source and available under the [MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)(LICENSE).
+This project is open source and available under the [MIT License](https://drive.google.com/file/d/1gqXh_C5UxCgzD79SGWYZ_LTElOkCoJ51/view?usp=sharing).
