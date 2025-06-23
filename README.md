@@ -59,7 +59,6 @@ Welcome to my personal portfolio built using **React + Tailwind CSS**, designed 
 | Icons            | React Icons, Custom SVGs |
 | Animations       | `react-type-animation`, Tailwind animations |
 | Hosting          | Vercel |
-| Forms (optional) | Firebase or EmailJS (placeholder) |
 | Image Assets     | `/public/logos/` folder with optimized `.svg` icons |
 
 ---
