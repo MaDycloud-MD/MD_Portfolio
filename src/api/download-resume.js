@@ -1,10 +1,14 @@
-// pages/api/download-resume.js
 export default async function handler(req, res) {
-  res.setHeader('Content-Disposition', 'attachment; filename=Resume.pdf');
-  res.setHeader('Content-Type', 'application/pdf');
+  const fileUrl = 'https://madycloud.vercel.app/Resume.pdf';
 
-  const file = await fetch('https://madycloud.vercel.app/Resume.pdf');
-  const buffer = await file.arrayBuffer();
+  try {
+    const response = await fetch(fileUrl);
+    const buffer = await response.arrayBuffer();
 
-  res.status(200).send(Buffer.from(buffer));
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', 'attachment; filename="Mohammed_Shoaib_Resume.pdf"');
+    res.status(200).send(Buffer.from(buffer));
+  } catch (error) {
+    res.status(500).send('Failed to fetch resume.');
+  }
 }
