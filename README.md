@@ -1,5 +1,4 @@
-# Mohammed Shoaib's Portfolio
-# 🚀 MaDycloud – Portfolio Website
+# Mohammed Shoaib's Portfolio Website
 
 Welcome to my personal portfolio built using **React + Tailwind CSS**, designed to showcase my professional experience, skills, certifications, and projects in a modern, visually engaging, and performant manner.
 
