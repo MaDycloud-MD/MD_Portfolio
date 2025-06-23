@@ -100,6 +100,7 @@ export default function Navbar({ toggleTheme, isDark }) {
              <a
                   href="/Resume.pdf"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary text-black px-3 py-1 rounded hover:bg-yellow-400 font-semibold transition inline-block"
                   download
                 >
