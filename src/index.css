@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-light dark:bg-dark text-gray-900 dark:text-gray-100 font-inter transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  @keyframes gradient-pan {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .animated-gradient {
+    background-size: 200% 200%;
+    animation: gradient-pan 5s ease infinite;
+  }
+}
