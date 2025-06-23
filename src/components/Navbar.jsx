@@ -98,11 +98,11 @@ export default function Navbar({ toggleTheme, isDark }) {
             ))}
             <li>
              <a
-                href="https://drive.google.com/file/d/10xY7o6qFecJF_GX6MKf0AEX3lKPVxLeg/view?usp=sharing"
+                href="/Resume.pdf"
+                target="_blank"
                 className="bg-primary text-black px-3 py-1 rounded hover:bg-yellow-400 font-semibold transition inline-block"
-                download
               >
-                Download Resume
+                Resume
               </a>
             </li>
           </ul>
