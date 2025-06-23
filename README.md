@@ -124,7 +124,7 @@ npm start
 ## 🧠 Credits
 
 - Gradient inspiration: Gemini UI + Dribbble
-- Logo icons: [SimpleIcons.org](https://simpleicons.org/)
+- Logo icons: [Techicons.dev](https://techicons.dev)
 - Built with 💛 by [Mohammed Shoaib. M](https://linkedin.com/in/myselfmd)
 
 ---
