@@ -10,7 +10,7 @@ import Certifications from './components/Certifications';
 import Volunteering from './components/Volunteering';
 
 function App() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', dark);
