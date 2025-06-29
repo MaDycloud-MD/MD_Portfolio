@@ -57,7 +57,7 @@ export default function Navbar({ toggleTheme, isDark }) {
         {/* Resume + Theme Toggle */}
         <li>
           <a
-            href="/Resume.pdf"
+            href="/MDShoaib's Resume.pdf"
             target="_blank"
             className="bg-primary text-black px-3 py-1 rounded hover:bg-yellow-400 font-semibold transition"
           >
@@ -98,7 +98,7 @@ export default function Navbar({ toggleTheme, isDark }) {
             ))}
             <li>
              <a
-                href="/Resume.pdf"
+                href="/MDShoaib's Resume.pdf"
                 target="_blank"
                 className="bg-primary text-black px-3 py-1 rounded hover:bg-yellow-400 font-semibold transition inline-block"
               >
