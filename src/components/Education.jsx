@@ -12,7 +12,7 @@ export default function Education() {
       year: "2024 - 2027"
     },
     {
-      degree: "Diploma in Computer Science and Engineering [ D.CSE ]",
+      degree: "Diploma in Computer Science and Engineering [ Cloud Computing ]",
       institution: "Jain Polytechnic | Department of Technical Education, Karnataka.",
       score: "CGPA: 9.52",
       year: "2020 - 2023"
