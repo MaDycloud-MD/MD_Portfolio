@@ -100,8 +100,7 @@ export default function Projects() {
         github: "https://github.com/MaDycloud-MD/Book-Review-System.git",
         details: [
           "Problem: Traditional book recommendation platforms often lack community engagement, scalability, and personalized insights.",
-          "Action:",
-          "Designed and developed a cloud-based book review system enabling users to register, browse books, post ratings, and write detailed reviews.",
+          "Action: Designed and developed a cloud-based book review system enabling users to register, browse books, post ratings, and write detailed reviews.",
           "Built a searchable book database with review threads, allowing users to connect and share literary opinions in a centralized platform.",
           "Integrated user authentication and profile management using Firebase for secure, cloud-based account handling.",
           "Implemented social sharing features and interactive UI to foster community discussion and book recommendations.",
