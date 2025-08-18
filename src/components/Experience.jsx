@@ -5,23 +5,19 @@ export default function Experience() {
   const fade = useScrollFadeIn();
   const experiences = [
     {
-      role: "Junior Cloud Engineer Intern – Eyesec Cybersecurity",
+      role: "Junior Cloud Engineer Intern – Eyesec Cybersecurity Solution Pvt.Ltd",
       duration: "Mar 2023 – Jun 2023",
       points: [
-        "Problem: For a customer in the Farm House Goods industry, a scalable cloud infrastructure was required to support SaaS apps and improve online sales.",
-        "Action: After examining more than fifty use cases with the Team lead, a customised cloud architecture was created to streamline sales procedures.",
-        "Results: Implemented a strong SaaS infrastructure that raised revenue by 40% in the first quarter after deployment and sales by 6.33% in six months.",
-        "Day to Day tasks: Set up and monitoring AWS services for SaaS deployment, such as load balancers, EC2, ECS, and S3.",
+        "Architected and implemented a scalable cloud-based SaaS solution on AWS for a Farm House Goods client, analyzing 50+ use cases to optimize the architecture, resulting in a 40% revenue increase in Q1 and a 6.33% sales boost over six months.",
+        "Configured and monitored AWS services, including EC2, ECS, S3, and load balancers to ensure high availability, performance, and cost-efficiency of SaaS applications."      
       ],
     },
     {
-      role: "Trainee – BSNL",
+      role: "Internship – BSNL",
       duration: "Sept 2022 – Oct 2022",
       points: [
-        "Issue: It was necessary to maintain a dependable networking backbone and streamlining sales operations.",
-        "Action: Participated in Networking Server management and received training in fundamental network systems, such as switches, routers, and FTTH. Assisted in putting in place a CRM system to cut down on manual labour in sales processes.",
-        "Outcome: A 5% increase in operational efficiency due to a 10% reduction in administrative workload and improved sales team focus.",
-      ],
+        "Supported network infrastructure management by working with routers, switches, and FTTH systems, ensuring a reliable networking backbone and enhancing system stability.",
+        "Assisted in CRM implementation to automate sales workflows, reducing administrative workload by 10% and improving operational efficiency by 5% through better sales team focus. ",      ],
     },
   ];
 

@@ -11,14 +11,10 @@ export default function Projects() {
       title: "City Wellness – Smart Reporting and Monitoring System",
       github: "https://github.com/Tasneemgokak/SmartCitywellness.git",
       details: [
-        "Issue: There were delays and unsanitary conditions as a result of the lack of real-time visibility, prioritisation, and citizen engagement in urban waste collection.",
-        "Take action: Created a full-stack web application that increased citizen participation by 70% by enabling real-time reporting of waste issues with voice, image, and GPS support.",
-        "Created and implemented a TensorFlow (CNN)-based AI-powered waste classifier that identified organic, metal, and glass waste types with 92% accuracy.",
-        "Flask backend was integrated to provide real-time machine learning predictions, and it was linked to a Node.js API layer to facilitate smooth front-end communication.",
-        "65% more efficient report management was achieved by implementing a role-based admin dashboard with Firebase Auth.",
-        "40% waste collection route planning optimisation was achieved by enabling predictive analytics with MongoDB historical data.",
-        "Improved user trust and transparency by introducing complaint escalation and feedback modules with before/after image comparison.",
-        "As a result, automated routing and prioritisation decreased waste overflow incidents by 55% and eliminated the need for manual monitoring by 60%. The platform's near real-time response capabilities allowed it to process over 250 reports during the testing phase.",
+        "Developed a full-stack AI-powered waste management platform with TensorFlow (92% accurate CNN classifier), Flask, Node.js, and MongoDB—enabling real-time reporting via voice, image, and GPS, expected to increase citizen participation by 70% and reduce overflow incidents by 55%.",
+        "Implemented a role-based admin dashboard with Firebase Auth, automated routing using historical data, and integrated complaint / feedback modules—boosting report handling efficiency by 65%, optimizing route planning by 40%, and eliminating 60% of manual monitoring.",
+        "Architected a cloud-native deployment model using AWS (EC2, ASG, ELB, Route 53, CloudFront) with CI/CD pipelines, reducing deployment effort by 80%, increasing uptime to 99.95%, and cutting global content latency by 45%.",
+        "Optimized platform scalability via Dockerized microservices and auto-scaling policies, reducing DevOps overhead by 50%, ensuring zero-downtime rollouts, and enhancing end-user reporting speed by 35%.",
       ],
       techStack: [
         { name: "HTML5", logo: "/logos/html5.svg" },
@@ -30,20 +26,19 @@ export default function Projects() {
         { name: "Flask", logo: "/logos/flask.svg" },
         { name: "TensorFlow", logo: "/logos/tensorflow.svg" },
         { name: "Keras", logo: "/logos/keras.svg" },
-        { name: "Firebase", logo: "/logos/firebase.svg" },
+        { name: "Firebase", logo: "/logos/firebase.svg" }, 
+        { name: "AWS", logo: "/logos/aws.svg" },
+        { name: "Docker", logo: "/logos/docker.svg" },
+        { name: "GitHub Actions", logo: "/logos/github-actions.svg"},
+        { name: "Git", logo: "/logos/git.svg"}
       ]
     },
     {
       title: "Netflix Clone with DevSecOps",
       github: "",
       details: [
-        "Problem: Manual deployments lacked consistency and security validation",
-        "Action: Designed and automated a CI/CD pipeline using Jenkins, integrating SonarQube and Trivy for static and container security scanning.",
-        "Deployed containerized services to AWS EKS using Helm and ArgoCD, achieving 99.9% uptime.",
-        "Set up monitoring via Prometheus & Grafana, reducing incident response time by 50%.",
-        "Automated Docker image builds and Docker Hub pushes to standardize releases.",
-        "Implemented SMTP alerts for failure detection, increasing failure visibility by 30%. ",
-        "Result: Reduced deployment time by 60% and optimized AWS infrastructure, cutting operational costs by 20%."
+        "Automated CI/CD pipeline using Jenkins, integrating Trivy and SonarQube for security scans, and standardized Docker image builds with Docker Hub—resulting in 60% faster deployments and 20% reduced AWS operating costs.",
+        "Deployed containerized services to AWS EKS with Helm and ArgoCD (99.9% uptime), implemented Prometheus-Grafana monitoring to cut incident response time by 50%, and improved failure visibility by 30% via SMTP alerting",
       ],
       techStack: [
         // Jenkins, SonarQube, Trivy, Docker, Kubernetes (EKS), Helm, ArgoCD, Prometheus, Grafana, AWS, SMTP, GitHub/GitLab CI
