@@ -9,7 +9,7 @@ export default function Education() {
       degree: "Bachelor of Computer Applications [ BCA ]",
       institution: "Rani Channamma University, Karnataka.",
       score: "CGPA: 8.37",
-      year: "2024 - 2027"
+      year: "Pursuing"
     },
     {
       degree: "Diploma in Computer Science and Engineering [ Cloud Computing ]",
