@@ -22,7 +22,7 @@ export default function Projects() {
 
         { name: "AWS", logo: "/logos/aws.svg"},
         { name: "Docker", logo: "/logos/docker.svg" },
-        { name: "Terraform", logo: "/logo/terraform.svg"},
+        { name: "Terraform", logo: "/logos/terraform.svg"},
       ]
     },
     
@@ -62,7 +62,7 @@ export default function Projects() {
       techStack: [
         { name: "AWS", logo: "/logos/aws.svg" },
         { name: "Docker", logo: "/logos/docker.svg" },
-        { name: "Terraform", logo: "/logo/terraform.svg"},
+        { name: "Terraform", logo: "/logos/terraform.svg"},
         { name: "Kubernetes", logo: "/logos/kubernetes.svg" },
         { name: "Jenkins", logo: "/logos/jenkins.svg" },
         { name: "SonarQube", logo: "/logos/sonarqube.svg" },
@@ -208,7 +208,7 @@ export default function Projects() {
                         Live Demo
                       </a>
                     )}
-                    
+
                     {proj.youtube && (
                       <a
                         href={proj.youtube}
@@ -219,7 +219,7 @@ export default function Projects() {
                                   transition-all duration-300"
                       >
                         <img
-                          src="/logos/youtube.svg"
+                          src="/logos/youtube1.svg"
                           alt="YouTube"
                           className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
                         />
