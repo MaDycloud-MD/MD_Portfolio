@@ -10,7 +10,6 @@ export default function Projects() {
     {
       title: "Strapi Headless CMS Deployment on AWS",
       github: "https://github.com/MaDycloud-MD/my-strapi-project-aws-deploy.git",
-      live: "https://www.youtube.com/watch?v=zRJaCDK8b3g",
       youtube: "https://youtu.be/zRJaCDK8b3g?si=gQi6vL4hyv4oDJ6y",
       details: [
 
