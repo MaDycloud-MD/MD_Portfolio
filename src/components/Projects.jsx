@@ -8,7 +8,7 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Strapi Headless CMS Deployment on AWS | Strapi | AWS | Terraform",
+      title: "Strapi Headless CMS Deployment on AWS",
       github: "https://github.com/MaDycloud-MD/my-strapi-project-aws-deploy.git",
       live: "https://www.youtube.com/watch?v=zRJaCDK8b3g",
       youtube: "https://youtu.be/zRJaCDK8b3g?si=gQi6vL4hyv4oDJ6y",
@@ -215,11 +215,11 @@ export default function Projects() {
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-2 text-sm px-4 py-1.5 rounded-full 
-                                  bg-red-600 text-white font-medium shadow hover:shadow-lg hover:bg-red-700 
+                                  bg-red-400 text-white font-medium shadow hover:shadow-lg hover:bg-red-700 
                                   transition-all duration-300"
                       >
                         <img
-                          src="/logos/youtube1.svg"
+                          src="/logos/youtube3.svg"
                           alt="YouTube"
                           className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
                         />
