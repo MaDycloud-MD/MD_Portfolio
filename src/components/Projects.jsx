@@ -8,8 +8,27 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "Strapi Headless CMS Deployment on AWS | Strapi | AWS | Terraform",
+      github: "https://github.com/MaDycloud-MD/my-strapi-project-aws-deploy.git",
+      live: "https://www.youtube.com/watch?v=zRJaCDK8b3g",
+      youtube: "https://youtu.be/zRJaCDK8b3g?si=gQi6vL4hyv4oDJ6y",
+      details: [
+
+        "Designed and deployed Strapi Headless CMS on AWS ECS (Fargate) using Docker and PostgreSQL (RDS), improving scalability and automation.",
+        "Implemented Infrastructure as Code (IaC) with Terraform to provision ECS clusters, task definitions, networking, and secure RDS configurations.",
+        "Troubleshot and resolved critical deployment issues (Docker multi-stage builds, SSL & pg_hba.conf errors, secret management), ensuring production-grade reliability."      
+      ],
+      techStack: [
+
+        { name: "AWS", logo: "/logos/aws.svg"},
+        { name: "Docker", logo: "/logos/docker.svg" },
+        { name: "Terraform", logo: "/logo/terraform.svg"},
+      ]
+    },
+    
+    {
       title: "City Wellness – Smart Reporting and Monitoring System",
-      github: "https://github.com/Tasneemgokak/SmartCitywellness.git",
+      github: "https://github.com/MaDycloud-MD/SmartCitywellness.git",
       details: [
         "Developed a full-stack AI-powered waste management platform with TensorFlow (92% accurate CNN classifier), Flask, Node.js, and MongoDB—enabling real-time reporting via voice, image, and GPS, expected to increase citizen participation by 70% and reduce overflow incidents by 55%.",
         "Implemented a role-based admin dashboard with Firebase Auth, automated routing using historical data, and integrated complaint / feedback modules—boosting report handling efficiency by 65%, optimizing route planning by 40%, and eliminating 60% of manual monitoring.",
@@ -41,9 +60,9 @@ export default function Projects() {
         "Deployed containerized services to AWS EKS with Helm and ArgoCD (99.9% uptime), implemented Prometheus-Grafana monitoring to cut incident response time by 50%, and improved failure visibility by 30% via SMTP alerting",
       ],
       techStack: [
-        // Jenkins, SonarQube, Trivy, Docker, Kubernetes (EKS), Helm, ArgoCD, Prometheus, Grafana, AWS, SMTP, GitHub/GitLab CI
         { name: "AWS", logo: "/logos/aws.svg" },
         { name: "Docker", logo: "/logos/docker.svg" },
+        { name: "Terraform", logo: "/logo/terraform.svg"},
         { name: "Kubernetes", logo: "/logos/kubernetes.svg" },
         { name: "Jenkins", logo: "/logos/jenkins.svg" },
         { name: "SonarQube", logo: "/logos/sonarqube.svg" },
@@ -86,7 +105,6 @@ export default function Projects() {
         "Configured Docker images and automated environment provisioning for seamless CI/CD integration.",
         "Result: Achieved 40% faster deployments, reduced manual provisioning by 50%, and maintained 99.8% uptime.",
       ],
-      // Tech Stack: Docker, AWS Elastic Beanstalk, EC2, CI/CD (GitHub Actions/GitLab CI), YAML, CloudWatch, AWS CLI
       techStack: [
         { name: "Docker", logo: "/logos/docker.svg" },
         { name: "AWS EC2", logo: "/logos/ec2.svg" },
@@ -171,7 +189,7 @@ export default function Projects() {
                 )}
 
                 {/* Action Links */}
-                {(proj.live || proj.github) && (
+                {(proj.live || proj.github || proj.youtube) && (
                   <div className="mt-6 flex gap-4 flex-wrap">
                     {proj.live && (
                       <a
@@ -188,6 +206,24 @@ export default function Projects() {
                           className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
                         />
                         Live Demo
+                      </a>
+                    )}
+                    
+                    {proj.youtube && (
+                      <a
+                        href={proj.youtube}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 text-sm px-4 py-1.5 rounded-full 
+                                  bg-red-600 text-white font-medium shadow hover:shadow-lg hover:bg-red-700 
+                                  transition-all duration-300"
+                      >
+                        <img
+                          src="/logos/youtube.svg"
+                          alt="YouTube"
+                          className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
+                        />
+                        Watch on YouTube
                       </a>
                     )}
 
