@@ -26,7 +26,7 @@ export default function Projects() {
     },
     
     {
-      title: "City Wellness – Smart Reporting and Monitoring System",
+      title: "City Wellness – Smart AI Powered Reporting and Monitoring System",
       github: "https://github.com/MaDycloud-MD/SmartCitywellness.git",
       details: [
         "Developed a full-stack AI-powered waste management platform with TensorFlow (92% accurate CNN classifier), Flask, Node.js, and MongoDB—enabling real-time reporting via voice, image, and GPS, expected to increase citizen participation by 70% and reduce overflow incidents by 55%.",

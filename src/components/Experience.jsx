@@ -8,7 +8,7 @@ export default function Experience() {
       role: "Junior Cloud Engineer Intern – Eyesec Cybersecurity Solution Pvt.Ltd",
       duration: "Mar 2023 – Jun 2023",
       points: [
-        "Architected and implemented a scalable cloud-based SaaS solution on AWS for a Farm House Goods client, analyzing 50+ use cases to optimize the architecture, resulting in a 40% revenue increase in Q1 and a 6.33% sales boost over six months.",
+        "Assisted in architecting and implementing a scalable cloud-based SaaS solution on AWS for a Farm House Goods client, analyzing 50+ use cases to optimize the architecture, resulting in a 40% revenue increase in Q1 and a 6.33% sales boost over six months.",
         "Configured and monitored AWS services, including EC2, ECS, S3, and load balancers to ensure high availability, performance, and cost-efficiency of SaaS applications."      
       ],
     },
