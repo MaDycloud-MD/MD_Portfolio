@@ -17,7 +17,8 @@ export default function Experience() {
       duration: "Sept 2022 – Oct 2022",
       points: [
         "Supported network infrastructure management by working with routers, switches, and FTTH systems, ensuring a reliable networking backbone and enhancing system stability.",
-        "Assisted in CRM implementation to automate sales workflows, reducing administrative workload by 10% and improving operational efficiency by 5% through better sales team focus. ",      ],
+        "Assisted in CRM implementation to automate sales workflows, reducing administrative workload by 10% and improving operational efficiency by 5% through better sales team focus. ",
+      ],
     },
   ];
 
@@ -29,9 +30,9 @@ export default function Experience() {
           <div key={idx} className="glass-card rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 bg-white/70 dark:bg-white/10 backdrop-blur">
             <h3 className="text-xl font-semibold mb-1 text-primary">{exp.role}</h3>
             <p className="text-sm text-gray-500 dark:text-gray-400">{exp.duration}</p>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-gray-700 dark:text-gray-200">
+            <ul className="list-disc pl-3 mt-2 space-y-1 text-gray-700 dark:text-gray-200">
               {exp.points.map((point, i) => (
-                <li key={i}>{point}</li>
+                <li key={i} className='pl-2'>{point}</li>
               ))}
             </ul>
           </div>

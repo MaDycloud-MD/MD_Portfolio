@@ -160,11 +160,12 @@ export default function Projects() {
             </button>
 
             {/* Opened description */}
+            
             {openIndex === i && (
               <>
-                <ul className="mt-4 list-disc list-inside space-y-1 text-sm text-gray-700 dark:text-gray-300 transition-all duration-300">
+                <ul className="mt-5 list-disc pl-5 space-y-1 text-sm text-gray-700 dark:text-gray-300 transition-all duration-300 text-justify">
                   {proj.details.map((d, j) => (
-                    <li key={j}>{d}</li>
+                    <li key={j} className='pl-2 '>{d}</li>
                   ))}
                 </ul>
 
