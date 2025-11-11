@@ -41,7 +41,7 @@ export default function Hero() {
     <div className="mt-6 flex gap-5 justify-center md:justify-start text-xl">
       {/* LinkedIn */}
       <a
-        href="https://linkedin.com/in/myselfmd"
+        href="https://www.linkedin.com/in/myselfmd"
         target="_blank"
         rel="noreferrer"
         className="hover:scale-110 transition-transform duration-300"
@@ -67,7 +67,7 @@ export default function Hero() {
 
       {/* GitHub */}
       <a
-        href="https://github.com/MaDycloud-MD"
+        href="https://www.github.com/MaDycloud-MD"
         target="_blank"
         rel="noreferrer"
         className="hover:scale-110 transition-transform duration-300"
