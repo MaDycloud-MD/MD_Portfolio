@@ -35,7 +35,9 @@ export default function Hero() {
     </div>
 
     <p className="mt-5 text-lg text-gray-600 dark:text-gray-300">
-        Specializing in AWS, Kubernetes, CI/CD automation, and secure SaaS deployment for scalable businesses.
+      I’m a DevOps and Cloud Engineer focused on building cloud systems teams can rely on.
+      I work with AWS, Kubernetes, Docker, Terraform, and CI CD pipelines to design, deploy, and run SaaS platforms. 
+      My focus is reducing release friction while keeping systems stable.
     </p>
 
     <div className="mt-6 flex gap-5 justify-center md:justify-start text-xl">
