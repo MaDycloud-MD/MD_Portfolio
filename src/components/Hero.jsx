@@ -41,6 +41,14 @@ export default function Hero() {
 
     <div className="mt-6 flex gap-5 justify-center md:justify-start text-xl">
       {/* LinkedIn */}
+      {/* <a 
+      class="libutton" 
+      // className="libutton hover:scale-110 transition-transform duration-300"
+      href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=myselfmd" 
+      target="_blank"
+      >
+        Follow on LinkedIn
+      </a> */}
       <a
         href="https://www.linkedin.com/in/myselfmd"
         target="_blank"

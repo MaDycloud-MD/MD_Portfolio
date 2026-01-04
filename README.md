@@ -1,48 +1,48 @@
 # Mohammed Shoaib's Portfolio Website
 
-Welcome to my personal portfolio built using **React + Tailwind CSS**, designed to showcase my professional experience, skills, certifications, and projects in a modern, visually engaging, and performant manner.
+Welcome to my personal portfolio built using **React**, designed to showcase my professional experience, skills, certifications, and projects in a modern, visually engaging, and performant manner.
 
 ---
 
-## 📌 Features
+## Features
 
-- 🌙 **Dark/Light Theme Toggle**  
+- **Dark/Light Theme Toggle**  
   - Swipe-friendly toggle (mobile support)
   - Flip animation & icon glow  
   - Theme state preserved on reload
 
-- 🌐 **Responsive Design**  
+- **Responsive Design**  
   - Mobile-first layout using Tailwind CSS  
   - Navbar collapse on scroll, expands on scroll-up  
   - Fully responsive across all device widths
 
-- 🧠 **Hero Section**  
+- **Hero Section**  
   - Gradient animated name (Gemini-style)  
   - Dynamic typewriter text using `react-type-animation`  
   - "Hire Me" CTA with smooth scroll
 
-- 🧰 **Skills Section**  
+- **Skills Section**  
   - Categorized with filter tabs (Programming, DevOps, DB, Tools)  
   - SVG logos with tooltips  
   - Hover effects & animations
 
-- 📁 **Projects Section**  
+- **Projects Section**  
   - Expandable cards with detailed bullet points  
   - Logos of tech stack used per project  
   - Live demo & GitHub buttons (with logos)
 
-- 🏅 **Certifications Section**  
+- **Certifications Section**  
   - Logos + certification name  
   - Click to view badge or credential link
 
-- 🎓 **Education & Volunteering**  
+- **Education & Volunteering**  
   - Styled and spaced for clear visual hierarchy
 
-- 📬 **Contact Section**  
+- **Contact Section**  
   - Contact info with icons  
   - Optional form (placeholder for Firebase/email integration)
 
-- 🧭 **Navigation Bar**
+- **Navigation Bar**
   - Floating translucent glass effect  
   - Gradient border + blur  
   - Full-width top navbar with scroll visibility logic  
@@ -51,7 +51,7 @@ Welcome to my personal portfolio built using **React + Tailwind CSS**, designed 
 
 ---
 
-## 🖼️ Tech Stack
+## Tech Stack
 
 | Category         | Tools |
 |------------------|-------|
@@ -63,7 +63,7 @@ Welcome to my personal portfolio built using **React + Tailwind CSS**, designed 
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 src/
@@ -90,14 +90,14 @@ public/
 
 ---
 
-## 🌍 Live Demo
+## Live Demo
 
-**🔗 [madycloud.vercel.app](https://madycloud.vercel.app)**  
+**[www.madycloud.me](https://madycloud.me)**  
 > Hosted on Vercel with CDN optimization and HTTPS
 
 ---
 
-## 📥 Installation & Setup
+## Installation & Setup
 
 ```bash
 # Clone the repo
@@ -113,7 +113,7 @@ npm start
 
 ---
 
-## ✨ Customization Tips
+## Customization Tips
 
 - Add your profile picture to `/public/Profile.jpg`
 - Replace resume link in `Navbar.jsx` (`/resume.pdf`)
@@ -121,14 +121,14 @@ npm start
 
 ---
 
-## 🧠 Credits
+## Credits
 
 - Gradient inspiration: Gemini UI + Dribbble
 - Logo icons: [Techicons.dev](https://techicons.dev)
-- Built with 💛 by [Mohammed Shoaib. M](https://linkedin.com/in/myselfmd)
+- Built with 🫶🏻 by [Mohammed Shoaib. M](https://linkedin.com/in/myselfmd)
 
 ---
 
-## 🛡️ License
+## License
 
 This project is open source and available under the [MIT License](https://drive.google.com/file/d/1gqXh_C5UxCgzD79SGWYZ_LTElOkCoJ51/view?usp=sharing).
