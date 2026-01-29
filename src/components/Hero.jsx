@@ -62,18 +62,6 @@ export default function Hero() {
         />
       </a>
 
-      {/* Email */}
-      <a
-        href="mailto:md.shoaib.i.makandar@gmail.com"
-        className="hover:scale-110 transition-transform duration-300"
-      >
-        <img
-          src="/logos/gmail.svg"
-          alt="Email"
-          className="w-6 h-6 sm:w-7 sm:h-7"
-        />
-      </a>
-
       {/* GitHub */}
       <a
         href="https://www.github.com/MaDycloud-MD"

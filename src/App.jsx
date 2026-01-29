@@ -30,9 +30,11 @@ function App() {
         
         {/* Contact section */}
         <Contact />
-
+        
       </main>
+      
     </div>
+    
   );
 }
 

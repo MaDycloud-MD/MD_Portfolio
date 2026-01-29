@@ -38,7 +38,7 @@ export default function Certifications() {
 
   return (
     <section id="certifications" className="py-20 scroll-mt-24" >
-      <h2 className="text-3xl font-bold mb-10 text-center">Certifications and Courses</h2>
+      <h2 className="text-3xl font-bold mb-10 ">Certifications and Courses</h2>
 
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center" >
         {certs.map((cert, i) => (

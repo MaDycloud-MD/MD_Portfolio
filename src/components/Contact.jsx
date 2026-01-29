@@ -15,7 +15,7 @@ export default function Contact() {
         </p>
 
         <div className="space-y-4 text-gray-800 dark:text-gray-200 text-base">
-          <div className="flex items-center gap-3">
+          {/* <div className="flex items-center gap-3">
             <FaEnvelope className="text-primary" />
             <span>
               <strong>Email:</strong>{' '}
@@ -26,7 +26,7 @@ export default function Contact() {
                 md.shoaib.i.makandar@gmail.com
               </a>
             </span>
-          </div>
+          </div> */}
 
           {/* <div className="flex items-center gap-3">
             <FaPhoneAlt className="text-primary" />
@@ -35,10 +35,66 @@ export default function Contact() {
             </span>
           </div> */}
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center gap-3 text-xs">
+            <a
+              href="https://www.linkedin.com/in/myselfmd"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-col items-center hover:scale-110 transition-transform duration-300"
+            > 
+              <img
+                src="/logos/linkedin.svg"
+                alt="LinkedIn"
+                className="w-6 h-6 sm:w-7 sm:h-7"
+              />
+              <span className="mt-1.5 text-center">LinkedIn</span> 
+            </a>
+
+            <a
+              href="https://www.instagram.com/myself.md"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-col items-center hover:scale-110 transition-transform duration-300"
+            > 
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+                alt="LinkedIn"
+                className="w-6 h-6 sm:w-7 sm:h-7"
+              />
+              <span className="mt-1.5 text-center">Instagram</span> 
+            </a>
+
+            <a
+              href="https://t.me/myselfmd07"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-col items-center hover:scale-110 transition-transform duration-300"
+            > 
+              <img
+                src='https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg'
+                alt="LinkedIn"
+                className="w-6 h-6 sm:w-7 sm:h-7"
+              />
+              <span className="mt-1.5 text-center">Telegram</span> 
+            </a>
+
+            <a
+                href="mailto:md.shoaib.i.makandar@gmail.com"
+                className="flex flex-col items-center hover:scale-110 transition-transform duration-300"
+              >
+                <img
+                  src="/logos/gmail.svg"
+                  alt="Email"
+                  className="w-6 h-6 sm:w-7 sm:h-7"
+                />
+                <span className="mt-1.5 text-center">Mail</span>
+              </a>
+          </div>
+
+          <div className="flex items-center justify-center gap-3">
             <FaMapMarkerAlt className="text-primary" />
             <span>
-              <strong>Location:</strong> Belagavi, Karnataka, India
+              <strong>Location:</strong> Belagavi, Karnataka, India.
             </span>
           </div>
         </div>

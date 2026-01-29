@@ -142,7 +142,7 @@ export default function Projects() {
 
    return (
     <section id="projects" className="py-20 scroll-mt-24">
-      <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
+      <h2 className="text-3xl font-bold mb-10 ">Projects</h2>
 
       <div {...fade} className="space-y-6">
         {projects.map((proj, i) => (

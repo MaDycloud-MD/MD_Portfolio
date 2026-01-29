@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import SwipeThemeToggle from './SwipeThemeToggle'; 
+import SwipeThemeToggle from '../utils/SwipeThemeToggle'; 
 
 export default function Navbar({ toggleTheme, isDark }) {
   const [visible, setVisible] = useState(true);
