@@ -6,21 +6,26 @@ export default function Volunteering() {
 
   const roles = [
     {
+      title: "Teaching Assistant",
+      description: "Delivered lectures on multiple academic courses and helped students clear academic doubts."
+
+    },
+    {
       title: "Placement Coordinator",
-      description: "Guided 100+ students with resume reviews, mock interviews, and placement training."
+      description: "Organized company drives, peer resume reviews, and mock interviews."
     },
     {
-      title: "Cybersecurity Workshop Support",
-      description: "Helped organize and manage a workshop attended by over 200+ students."
+      title: "Cybersecurity Workshop Volunteer",
+      description: "Supported Secuneus Tech in hands-on sessions for 150+ students. "
     },
     {
-      title: "Event Organizer – Tech & Cultural Fests",
+      title: "Event Organizer, Tech & Cultural Fests",
       description: "Led planning and logistics for college-wide events, managing other volunteers."
     }
   ];
 
   return (
-    <section id="volunteering" className="py-16 scroll-mt-20" {...fade}>
+    <section id="volunteering" className="py-16 scroll-mt-20"{...fade}>
       <h2 className="text-3xl font-bold mb-6">Volunteering</h2>
       <div className="space-y-6">
         {roles.map((role, i) => (

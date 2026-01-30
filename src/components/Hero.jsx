@@ -3,11 +3,12 @@ import { FaArrowDown } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Hero() {
+  
   return (
-   <section
-  id="about"
-  className="relative overflow-hidden pt-32 sm:pt-36 md:pt-40 pb-16 flex flex-col md:flex-row items-center md:items-start justify-start gap-6 md:gap-12"
->
+    <section
+    id="about"
+    className="relative overflow-hidden pt-32 sm:pt-36 md:pt-40 pb-16 flex flex-col md:flex-row items-center md:items-start justify-start gap-6 md:gap-12"
+    >
   
   <div className="text-center md:text-left relative z-10 md:w-2/3">
     
@@ -36,7 +37,7 @@ export default function Hero() {
 
     <p className="mt-5 text-lg text-gray-600 dark:text-gray-300">
       I’m a DevOps and Cloud Engineer focused on building cloud systems teams can rely on.
-      I work with AWS, Kubernetes, Docker, Terraform, and CI CD pipelines to design, deploy, and run SaaS platforms. 
+      I work with AWS, Kubernetes, Docker, Terraform, and CI/CD pipelines to design, deploy, and run SaaS platforms. 
     </p>
 
     <div className="mt-6 flex gap-5 justify-center md:justify-start text-xl">
@@ -58,18 +59,6 @@ export default function Hero() {
         <img
           src="/logos/linkedin.svg"
           alt="LinkedIn"
-          className="w-6 h-6 sm:w-7 sm:h-7"
-        />
-      </a>
-
-      {/* Email */}
-      <a
-        href="mailto:md.shoaib.i.makandar@gmail.com"
-        className="hover:scale-110 transition-transform duration-300"
-      >
-        <img
-          src="/logos/gmail.svg"
-          alt="Email"
           className="w-6 h-6 sm:w-7 sm:h-7"
         />
       </a>

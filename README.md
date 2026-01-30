@@ -102,7 +102,7 @@ public/
 ```bash
 # Clone the repo
 git clone https://github.com/MaDycloud-MD/portfolio.git
-cd portfolio
+cd MD_Portfolio
 
 # Install dependencies
 npm install
@@ -116,7 +116,7 @@ npm start
 ## Customization Tips
 
 - Add your profile picture to `/public/Profile.jpg`
-- Replace resume link in `Navbar.jsx` (`/resume.pdf`)
+- Replace resume link in `/public/resume.pdf`
 - Add more projects, skills, or certifications in their respective component arrays
 
 ---

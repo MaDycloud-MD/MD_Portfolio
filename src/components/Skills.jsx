@@ -23,7 +23,7 @@ const skillGroups = [
       { label: "Kubernetes", logo: "/logos/kubernetes.svg" },
       { label: "Terraform", logo: "/logos/terraform.svg" },
       { label: "Jenkins", logo: "/logos/jenkins.svg" },
-      { label: "GitLab", logo: "/logos/gitlab.svg" },
+      { label: "GitHub Actions", logo: "/logos/github-actions.svg" },
       { label: "ArgoCD", logo: "/logos/argocd.svg" },
       { label: "Prometheus", logo: "/logos/prometheus.svg" },
       { label: "Grafana", logo: "/logos/grafana.svg" },
@@ -71,11 +71,11 @@ export default function Skills() {
       : skillGroups.filter((group) => group.category === filter);
 
   return (
-    <section id="skills" className="py-20 scroll-mt-24">
-      <h2 className="text-3xl font-bold mb-6 text-center">Skills & Technologies</h2>
+    <section id="skills" className="py-20 scroll-mt-24" >
+      <h2 className="text-3xl font-bold mb-6 ">Skills & Technologies</h2>
 
       {/* Filter Buttons */}
-      <div className="flex flex-wrap gap-3 justify-center mb-10">
+      <div className="flex flex-wrap gap-3  mb-10">
         {categories.map((cat) => (
           <button
             key={cat}
@@ -92,7 +92,7 @@ export default function Skills() {
       </div>
 
       {/* Skills Grid */}
-      <div {...fade} className="space-y-10">
+      <div {...fade} className="space-y-10" >
         {filteredGroups.map((group, groupIdx) => (
           <div
             key={groupIdx}
