@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import useScrollFadeIn from '../utils/useScrollFadeIn';
+// import useScrollFadeIn from '../utils/useScrollFadeIn';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 export default function Projects() {
-  const fade = useScrollFadeIn();
+  // const fade = useScrollFadeIn();
   const [openIndex, setOpenIndex] = useState(null);
 
   const projects = [

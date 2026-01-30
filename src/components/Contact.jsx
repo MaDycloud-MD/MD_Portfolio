@@ -1,9 +1,9 @@
 import React from 'react';
-import useScrollFadeIn from '../utils/useScrollFadeIn';
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
+// import useScrollFadeIn from '../utils/useScrollFadeIn';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Contact() {
-  const fade = useScrollFadeIn();
+  // const fade = useScrollFadeIn();
 
   return (
     <section id="contact" className="py-20 scroll-mt-20">

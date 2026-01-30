@@ -1,8 +1,8 @@
 import React from 'react';
-import useScrollFadeIn from '../utils/useScrollFadeIn';
+// import useScrollFadeIn from '../utils/useScrollFadeIn';
 
 export default function Certifications() {
-  const fade = useScrollFadeIn();
+  // const fade = useScrollFadeIn();
   const certs = [
     {
       name: "Oracle Fusion Cloud Applications ERP Certified Foundations Associate",
