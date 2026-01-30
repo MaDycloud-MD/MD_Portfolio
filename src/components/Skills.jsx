@@ -71,7 +71,7 @@ export default function Skills() {
       : skillGroups.filter((group) => group.category === filter);
 
   return (
-    <section id="skills" className="py-20 scroll-mt-24">
+    <section id="skills" className="py-20 scroll-mt-24" >
       <h2 className="text-3xl font-bold mb-6 ">Skills & Technologies</h2>
 
       {/* Filter Buttons */}
@@ -92,7 +92,7 @@ export default function Skills() {
       </div>
 
       {/* Skills Grid */}
-      <div {...fade} className="space-y-10">
+      <div {...fade} className="space-y-10" >
         {filteredGroups.map((group, groupIdx) => (
           <div
             key={groupIdx}

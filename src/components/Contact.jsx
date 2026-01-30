@@ -6,10 +6,10 @@ export default function Contact() {
   const fade = useScrollFadeIn();
 
   return (
-    <section id="contact" {...fade} className="py-20 scroll-mt-24">
+    <section id="contact" className="py-20 scroll-mt-20">
       <h2 className="text-3xl font-bold mb-6">Contact</h2>
 
-      <div className="bg-white dark:bg-white/10 border border-gray-200 dark:border-gray-700 rounded-xl p-6 shadow-md max-w-6xl space-y-4">
+      <div className="bg-white dark:bg-white/10 border border-gray-200 dark:border-gray-700 rounded-xl p-6 shadow-md max-w-6xl space-y-4" >
         <p className="text-gray-700 dark:text-gray-300">
           Have a Opportunity, project, collaboration idea, or just want to connect?
         </p>
