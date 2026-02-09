@@ -6,13 +6,13 @@ export default function Hero() {
   
   return (
     <section
-    id="about"
+    id="home"
     className="relative overflow-hidden pt-32 sm:pt-36 md:pt-40 pb-16 flex flex-col md:flex-row items-center md:items-start justify-start gap-6 md:gap-12"
     >
   
   <div className="text-center md:text-left relative z-10 md:w-2/3">
     
-   <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 drop-shadow-[0_1px_12px_rgba(168,85,247,0.45)] animated-gradient">
+    <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 drop-shadow-[0_1px_12px_rgba(168,85,247,0.45)] animated-gradient">
       Mohammed Shoaib. Makandar
     </h1>
 

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import SwipeThemeToggle from '../utils/SwipeThemeToggle'; 
-
 export default function Navbar({ toggleTheme, isDark }) {
   const [visible, setVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -18,17 +17,29 @@ export default function Navbar({ toggleTheme, isDark }) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScrollY]);
 
-  const navLinks = [
-    { name: 'About', href: '#about' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Education', href: '#education' },
-    { name: 'Certifications', href: '#certifications' },
-    { name: 'Contact', href: '#contact' },
-  ];
+  const scrollToSection = (id) => {
+  const el = document.getElementById(id);
+  if (!el) return;
 
-  return (
+  const yOffset = -100; 
+  const y =
+    el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+  window.scrollTo({ top: y, behavior: "smooth" });
+  setIsOpen(false);
+};
+
+  const navLinks = [
+  { name: 'Home', id: 'home' },
+  { name: 'Experience', id: 'experience' },
+  { name: 'Projects', id: 'projects' },
+  { name: 'Skills', id: 'skills' },
+  { name: 'Education', id: 'education' },
+  { name: 'Certifications', id: 'certifications' },
+  { name: 'Contact', id: 'contact' },
+];
+  
+return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 w-full px-4 sm:px-8 py-3
         flex items-center justify-between
@@ -41,24 +52,41 @@ export default function Navbar({ toggleTheme, isDark }) {
         ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10 pointer-events-none'}
       `}
     >
-      {/* Brand */}
-      <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 text-transparent bg-clip-text drop-shadow-md whitespace-nowrap">
+    
+    {/* Brand / Logo */}
+    <button
+      onClick={() => {
+        setIsOpen(false);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }}
+      aria-label="MaDycloud Home"
+      className="cursor-pointer hover:scale-105 transition-transform duration-100 bg-transparent"
+    >
+      <h1 className="text-lg sm:text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 drop-shadow-[0_1px_12px_rgba(168,85,247,0.45)] animated-gradient">
         MaDycloud
       </h1>
-
+    </button>
+      
       {/* Desktop Nav */}
       <ul className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-700 dark:text-gray-300 ml-auto">
         {navLinks.map(link => (
           <li key={link.name}>
-            <a href={link.href} className="hover:text-primary">{link.name}</a>
+            <button
+              onClick={() => scrollToSection(link.id)}
+              className="hover:text-primary transition bg-transparent"
+            >
+              {link.name}
+            </button>
+
           </li>
         ))}
 
         {/* Resume + Theme Toggle */}
         <li>
           <a
-            href="/MDShoaib's Resume.pdf"
+            href="https://docs.google.com/document/d/1EblK-0oAYLxh_np1V1cgoEm3mEHu554rL7EweL92Pgo/edit?usp=sharing"
             target="_blank"
+            rel="noreferrer"
             className="bg-primary text-black px-3 py-1 rounded hover:bg-yellow-400 font-semibold transition"
           >
             Resume
@@ -69,7 +97,7 @@ export default function Navbar({ toggleTheme, isDark }) {
         </li>
       </ul>
 
-      {/* Mobile Toggle + Swipe (optional on small screens) */}
+      {/* Mobile Toggle + Swipe */}
       <div className="md:hidden flex items-center gap-3">
         <SwipeThemeToggle toggleTheme={toggleTheme} isDark={isDark} />
         <button
@@ -87,19 +115,19 @@ export default function Navbar({ toggleTheme, isDark }) {
           <ul className="flex flex-col gap-4 text-sm font-medium text-gray-700 dark:text-gray-300">
             {navLinks.map(link => (
               <li key={link.name}>
-                <a
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
-                  className="hover:text-primary"
+                <button
+                onClick={() => scrollToSection(link.id)}
+                className="hover:text-primary text-left bg-transparent"
                 >
                   {link.name}
-                </a>
+                </button>
               </li>
             ))}
             <li>
              <a
-                href="/MDShoaib's Resume.pdf"
+                href="https://docs.google.com/document/d/1EblK-0oAYLxh_np1V1cgoEm3mEHu554rL7EweL92Pgo/edit?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
                 className="bg-primary text-black px-3 py-1 rounded hover:bg-yellow-400 font-semibold transition inline-block"
               >
                 Resume

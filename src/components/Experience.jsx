@@ -23,7 +23,7 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-12" {...fade} >
+    <section id="experience" className="py-12 scroll-mt-26" {...fade} >
       <h2 className="text-3xl font-bold mb-6">Experience</h2>
       <div className="grid md:grid-cols-1 gap-6" >
         {experiences.map((exp, idx) => (

@@ -15,7 +15,7 @@ const skillGroups = [
   },
   {
     category: "DevOps",
-    title: "DevOps & Cloud",
+    title: "Cloud & DevOps ",
     items: [
       { label: "AWS", logo: "/logos/aws.svg" },
       { label: "Azure", logo: "/logos/azure.svg" },
@@ -40,8 +40,6 @@ const skillGroups = [
     items: [
       { label: "MySQL", logo: "/logos/mysql.svg" },
       { label: "MongoDB", logo: "/logos/mongodb.svg" },
-
-
     ],
   },
   {
@@ -64,7 +62,6 @@ const skillGroups = [
       { label: "Nano", logo: "/logos/nano.svg" },
       { label: "Visual Studio Code", logo: "/logos/visual-studio-code.svg" },
       { label: "Jira", logo: "/logos/jira.svg" },
-
     ],
   },
 ];
@@ -79,7 +76,7 @@ export default function Skills() {
       : skillGroups.filter((group) => group.category === filter);
 
   return (
-    <section id="skills" className="py-20 scroll-mt-24" >
+    <section id="skills" className="py-10 scroll-mt-24" >
       <h2 className="text-3xl font-bold mb-6 ">Skills & Technologies</h2>
 
       {/* Filter Buttons */}
