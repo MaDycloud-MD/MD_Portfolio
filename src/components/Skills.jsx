@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useScrollFadeIn from '../utils/useScrollFadeIn';
 
-const categories = ["All", "Programming", "DevOps", "Databases", "Tools & Platforms"];
+const categories = ["All", "Programming", "DevOps", "Databases", "Operating Systems", "Tools"];
 
 const skillGroups = [
   {
@@ -41,12 +41,22 @@ const skillGroups = [
       { label: "MySQL", logo: "/logos/mysql.svg" },
       { label: "MongoDB", logo: "/logos/mongodb.svg" },
 
-      
+
     ],
   },
   {
-    category: "Tools & Platforms",
-    title: "Tools & Platforms",
+    category: "Operating Systems",
+    title: "Operating Systems",
+    items: [
+
+      { label: "Linux", logo: "/logos/linux.svg" },
+      { label: "Unix", logo: "/logos/unix.svg" },
+      { label: "Windows", logo: "/logos/windows-11.svg" },
+    ],
+  },
+  {
+    category: "Tools",
+    title: "Tools",
     items: [
       { label: "Git", logo: "/logos/git.svg" },
       { label: "GitHub", logo: "/logos/github.svg" },
@@ -54,9 +64,7 @@ const skillGroups = [
       { label: "Nano", logo: "/logos/nano.svg" },
       { label: "Visual Studio Code", logo: "/logos/visual-studio-code.svg" },
       { label: "Jira", logo: "/logos/jira.svg" },
-      { label: "Linux", logo: "/logos/linux.svg" },
-      { label: "Unix", logo: "/logos/unix.svg" },
-      { label: "Windows", logo: "/logos/windows-11.svg" },
+
     ],
   },
 ];
@@ -80,11 +88,10 @@ export default function Skills() {
           <button
             key={cat}
             onClick={() => setFilter(cat)}
-            className={`px-4 py-1 rounded-full text-sm font-medium border ${
-              filter === cat
-                ? "bg-primary text-black"
-                : "bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200"
-            } transition hover:scale-105`}
+            className={`px-4 py-1 rounded-full text-sm font-medium border ${filter === cat
+              ? "bg-primary text-black"
+              : "bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200"
+              } transition hover:scale-105`}
           >
             {cat}
           </button>
