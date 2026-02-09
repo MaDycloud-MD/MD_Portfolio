@@ -13,7 +13,7 @@ Welcome to my personal portfolio built using **React**, designed to showcase my 
 
 - **Responsive Design**  
   - Mobile-first layout using Tailwind CSS  
-  - Navbar collapse on scroll, expands on scroll-up  
+  - Navbar collapses on scroll, expands on scroll-up  
   - Fully responsive across all device widths
 
 - **Hero Section**  
@@ -46,7 +46,7 @@ Welcome to my personal portfolio built using **React**, designed to showcase my 
   - Floating translucent glass effect  
   - Gradient border + blur  
   - Full-width top navbar with scroll visibility logic  
-  - Theme toggle beside Resume button  
+  - Theme toggle beside the Resume button  
   - Mobile hamburger menu
 
 ---
@@ -76,9 +76,9 @@ src/
 │   ├── Education.jsx
 │   ├── Volunteering.jsx
 │   ├── Contact.jsx
-│   └── SwipeThemeToggle.jsx
 ├── utils/
 │   └── useScrollFadeIn.js
+│   └── SwipeThemeToggle.jsx
 ├── App.jsx
 ├── index.jsx
 public/
@@ -101,7 +101,7 @@ public/
 
 ```bash
 # Clone the repo
-git clone https://github.com/MaDycloud-MD/portfolio.git
+git clone https://github.com/MaDycloud-MD/MD_Portfolio.git
 cd MD_Portfolio
 
 # Install dependencies
@@ -131,4 +131,4 @@ npm start
 
 ## License
 
-This project is open source and available under the [MIT License](https://drive.google.com/file/d/1gqXh_C5UxCgzD79SGWYZ_LTElOkCoJ51/view?usp=sharing).
+Licensed under the Apache License 2.0. 'madycloud' is a trademark and may not be used without permission.
