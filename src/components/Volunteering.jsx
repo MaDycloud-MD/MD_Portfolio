@@ -7,16 +7,16 @@ export default function Volunteering() {
   const roles = [
     {
       title: "Teaching Assistant",
-      description: "Delivered lectures on multiple academic courses and helped students clear academic doubts."
+      description: "Delivered lectures on 3+ academic courses and helped 90+ students clear academic doubts."
 
     },
     {
       title: "Placement Coordinator",
-      description: "Organized company drives, peer resume reviews, and mock interviews."
+      description: "Organized 50+ company drives, peer 250+ resume reviews, and 15+ mock interviews."
     },
     {
       title: "Cybersecurity Workshop Volunteer",
-      description: "Supported Secuneus Tech in hands-on sessions for 150+ students. "
+      description: "Supported Secuneus Tech in hands-on sessions for 200+ students."
     },
     {
       title: "Event Organizer, Tech & Cultural Fests",

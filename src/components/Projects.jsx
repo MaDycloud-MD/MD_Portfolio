@@ -50,10 +50,10 @@ export default function Projects() {
       ]
     },
     {
-      title: "Netflix Clone with DevSecOps",
+      title: "CloudForge: Cloud-Native DevSecOps Platform ",
       github: "https://github.com/MaDycloud-MD/Netflix_DevSecOps_Project.git",
       details: [
-        "Automated CI/CD pipeline using Jenkins, integrating Trivy and SonarQube for security scans, and standardized Docker image builds with Docker Hub—resulting in 60% faster deployments and 20% reduced AWS operating costs.",
+        "Automated CI/CD pipeline using Jenkins, integrating Trivy and SonarQube for security scans, and standardized Docker image builds with Docker Hub, resulting in 60% faster deployments and 20% reduced AWS operating costs.",
         "Deployed containerized services to AWS EKS with Helm and ArgoCD (99.9% uptime), implemented Prometheus-Grafana monitoring to cut incident response time by 50%, and improved failure visibility by 30% via SMTP alerting",
       ],
       techStack: [
