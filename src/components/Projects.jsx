@@ -26,13 +26,11 @@ export default function Projects() {
     },
     
     {
-      title: "City Wellness – Smart AI-Powered Waste Reporting System",
+      title: "City Wellness: AI-Powered Waste Reporting System",
       github: "https://github.com/MaDycloud-MD/SmartCitywellness.git",
       details: [
-        "Developed a full-stack AI-powered waste management platform with TensorFlow (92% accurate CNN classifier), Flask, Node.js, and MongoDB—enabling real-time reporting via voice, image, and GPS, expected to increase citizen participation by 70% and reduce overflow incidents by 55%.",
-        "Implemented a role-based admin dashboard with Firebase Auth, automated routing using historical data, and integrated complaint / feedback modules—boosting report handling efficiency by 65%, optimizing route planning by 40%, and eliminating 60% of manual monitoring.",
-        "Architected a cloud-native deployment model using AWS (EC2, ASG, ELB, Route 53, CloudFront) with CI/CD pipelines, reducing deployment effort by 80%, increasing uptime to 99.95%, and cutting global content latency by 45%.",
-        "Optimized platform scalability via Dockerized microservices and auto-scaling policies, reducing DevOps overhead by 50%, ensuring zero-downtime rollouts, and enhancing end-user reporting speed by 35%.",
+        "Developed a full-stack AI-powered waste management platform using Tensorflow (92% accurate CNN classifier), enabling real-time voice, image, and GPS reporting, projected to increase citizen participation by 70% and reduce overflow waste incidents by 55%",
+        "Architected a cloud-native deployment model using AWS (EC2, ASG, ELB, Route 53) with CI/CD pipelines, which reduced deployment effort by 80%, increased uptime to 99.95%, and improved overall system reliability."
       ],
       techStack: [
         { name: "HTML5", logo: "/logos/html5.svg" },

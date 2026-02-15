@@ -84,7 +84,7 @@ return (
         {/* Resume + Theme Toggle */}
         <li>
           <a
-            href="https://docs.google.com/document/d/1EblK-0oAYLxh_np1V1cgoEm3mEHu554rL7EweL92Pgo/edit?usp=sharing"
+            href="/MDShoaib_Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="bg-primary text-black px-3 py-1 rounded hover:bg-yellow-400 font-semibold transition"
@@ -125,7 +125,7 @@ return (
             ))}
             <li>
              <a
-                href="https://docs.google.com/document/d/1EblK-0oAYLxh_np1V1cgoEm3mEHu554rL7EweL92Pgo/edit?usp=sharing"
+                href="/MDShoaib_Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="bg-primary text-black px-3 py-1 rounded hover:bg-yellow-400 font-semibold transition inline-block"
