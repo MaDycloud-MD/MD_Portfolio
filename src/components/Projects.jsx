@@ -8,6 +8,26 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "Deep Packet Inspection",
+      github: "https://github.com/MaDycloud-MD/Deep_Packet_Inspection-Java.git",
+      details: [
+
+        "Built a production-style Deep Packet Inspection (DPI) engine in Java with zero-copy concurrent pipeline, TLS SNI parsing, and stateful TCP tracking to classify and block encrypted traffic in real time.",
+        "Designed lock-efficient multi-threaded architecture using consistent 5-tuple hashing for flow affinity, enabling horizontal scaling without shared connection-table contention.",
+        "Implemented TLS 1.2/1.3 ClientHello parser from raw binary to extract SNI without third-party libraries for HTTPS domain classification.",
+       " Engineered a hot-reloadable rule engine with wildcard domain support and O(1) IP/app lookup using per-category read-write locking.",
+        "Built deterministic packet generator and connection table with LRU eviction (100K cap) mirroring firewall-grade networking systems. ",
+            
+      ],
+      techStack: [
+
+        { name: "Java", logo: "/logos/java.svg"},
+        { name: "Maven", logo: "logos/apache-maven.svg"},
+      ]
+    },
+
+
+    {
       title: "Strapi Headless CMS Deployment on AWS",
       github: "https://github.com/MaDycloud-MD/my-strapi-project-aws-deploy.git",
       youtube: "https://youtu.be/zRJaCDK8b3g?si=gQi6vL4hyv4oDJ6y",
